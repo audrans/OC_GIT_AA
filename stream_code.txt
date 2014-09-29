@@ -1,0 +1,11 @@
+$orientation="Landscape";
+setdestpath($setdestpath);
+
+//information spécifiques récupérées du fichier rhc.tbl
+
+//readsubst("../rhc.tbl");
+$recherche_file = substarr("rhc.tbl", "SOCRHC", $socrhc);
+$recherche_file = substarr("rhc.tbl", "ATELIER", $atelier);
+$recherche_file = substarr("rhc.tbl", "AGREMENT", $agrement);
+$recherche_file = substarr("rhc.tbl", "SASIRET", $sasiret);
+$recherche_file = substarr("rhc.tbl", "COUPON", $coupon);
